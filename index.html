@@ -17,12 +17,12 @@
             background-color: #3498db;
             color: #fff;
             text-align: center;
-            padding: 20px;
+            padding: 15px;
         }
 
         nav {
             background-color: #2980b9;
-            padding: 10px;
+            padding: 8px;
             text-align: center;
         }
 
@@ -37,7 +37,7 @@
         }
 
         section {
-            padding: 20px;
+            padding: 15px;
         }
 
         footer {
@@ -49,7 +49,20 @@
             bottom: 0;
             width: 100%;
         }
-    </style>
+        @media screen and (max-width:768px)
+       {
+          header{
+             padding:10px; /*Adjusted padding for smaller screens*/
+          nav{
+            padding:5px; /*Adjusted padding for smaller screens*/
+          nav a{
+            padding:8px 10px; /*Adjusted padding for smaller screens*/
+          section{
+            padding:10px; /*Adjusted padding for smaller screens*/
+       }
+     }
+
+   </style>
 </head>
 
 <body>
