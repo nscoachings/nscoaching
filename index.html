@@ -13,27 +13,17 @@
             background-color: #f5f5f5;
         }
 
-
-  
         header {
             background-color: #3498db;
             color: #fff;
             text-align: center;
-            padding: 20px;
+            padding: 15px;
         }
 
-        @media only screen and (max-width: 768px) {
-            header {
-                padding: 15px;
-            }
-        }
-
-      nav {
+        nav {
             background-color: #2980b9;
             padding: 8px;
             text-align: center;
-            display: flex;
-            justify-content: space-around; /* Centered navigation items for desktop */
         }
 
         nav a {
@@ -50,11 +40,6 @@
             padding: 15px;
         }
 
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-
         footer {
             background-color: #3498db;
             color: #fff;
@@ -64,17 +49,18 @@
             bottom: 0;
             width: 100%;
         }
-
-        @media screen and (max-width: 768px) {
-            nav {
-                flex-direction: column; /* Display navigation items vertically for smaller screens */
-                align-items: center; /* Center items for smaller screens */
-            }
-
-            nav a {
-                margin-bottom: 5px;
-            }
-        }
+        @media screen and (max-width:768px)
+       {
+          header{
+             padding:10px; /*Adjusted padding for smaller screens*/
+          nav{
+            padding:5px; /*Adjusted padding for smaller screens*/
+          nav a{
+            padding:8px 10px; /*Adjusted padding for smaller screens*/
+          section{
+            padding:10px; /*Adjusted padding for smaller screens*/
+       }
+     }
 
    </style>
 </head>
